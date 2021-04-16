@@ -1,0 +1,131 @@
+* {
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+body {
+	background: #F7F8FA;
+}
+
+#logo {
+	height: 77px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'DM Sans Bold';
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 42px;
+	letter-spacing: -0.02em;
+	text-align: center;
+}
+
+.bold {
+	font-family: 'DM Sans Bold Italic';
+}
+
+.width {
+	width: 375px;
+}
+
+#blurb {
+	font-family:'DM Sans Italic';
+	font-size: 19px;
+	line-height: 140%;
+	letter-spacing: -0.01em;
+	text-align: center;
+	color: #6F757E;
+}
+
+#triangle {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+
+#yt-link {
+	position: relative;
+	display: inline-block;
+	font-family: 'DM Sans Bold';
+	font-size: 19px;
+	letter-spacing: -0.01em;
+	color: #0D6EFD;
+	text-decoration: none;
+}
+
+#yt-link:hover {
+	opacity: 0.6;
+}
+
+
+@media screen and (max-width: 425px) {
+	body {
+		margin: 0 auto;
+	}
+	.width {
+		width: 100%;
+	}
+	#wrapper {
+		margin-top: 125px;
+	}
+	#blurb {
+		font-size: 17px;
+	}
+	#howitworks {
+		padding: 4px 16px 32px 16px;
+		border-radius: 0px;
+	}
+}
+
+@font-face {
+font-family: 'DM Sans Regular';
+font-style: normal;
+font-weight: normal;
+src: local('DM Sans Regular'), url('DMSans-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'DM Sans Italic';
+font-style: normal;
+font-weight: normal;
+src: local('DM Sans Italic'), url('DMSans-Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'DM Sans Medium';
+font-style: normal;
+font-weight: normal;
+src: local('DM Sans Medium'), url('DMSans-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'DM Sans Medium Italic';
+font-style: normal;
+font-weight: normal;
+src: local('DM Sans Medium Italic'), url('DMSans-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'DM Sans Bold';
+font-style: normal;
+font-weight: normal;
+src: local('DM Sans Bold'), url('DMSans-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'DM Sans Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('DM Sans Bold Italic'), url('DMSans-BoldItalic.woff') format('woff');
+}
